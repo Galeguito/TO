@@ -1,0 +1,6 @@
+streamlit
+datetime
+numpy
+matplotlib
+h5py
+tensorflow==2.20
