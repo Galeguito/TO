@@ -80,7 +80,7 @@ fig, ax = plt.subplots(figsize=(10, 2.5))
 
 # Plota a imagem
 ax.imshow(predicted_image, 
-          cmap='gray', 
+          cmap='gray_r', 
           interpolation='nearest', 
           origin='lower', 
           vmin=0, 
@@ -93,5 +93,6 @@ ax.set_ylabel("Altura da Malha (Y)")
 
 # 5. Renderiza a figura no navegador
 st.pyplot(fig)
+
 
 st.caption("A topologia é binarizada (0 ou 1) pela função sigmoid de saída do modelo.")
